@@ -390,7 +390,7 @@ char *top(Stack *stack)
 }
 
 /*
-    A function which cheks a string whether it is numerical or not.
+    A function which checks a string whether it is numerical or not.
     @param *str: the string
     @return: a boolean value which represents the string is numerical or not.
 */
