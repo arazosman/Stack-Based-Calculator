@@ -21,6 +21,7 @@ Run the program with its name:
 ./Calculator
 ```
 
+<br/>
 In Windows, to run this program you can use an IDE like CodeBlocks, Eclipse or Visual Studio.
 <br/><br/>
 
