@@ -10,3 +10,13 @@ In Unix, open up your terminal screen and go to the directory of the source file
 ```
 cd /home/USERNAME/Stack-Based-Calculator
 ```
+
+Compile the program with GCC:
+```
+gcc calculator.c -o PROGRAMNAME
+```
+
+Run the program with its name: 
+```
+./PROGRAMNAME
+```
