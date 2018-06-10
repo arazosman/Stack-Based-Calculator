@@ -66,3 +66,5 @@ c = a + b * 4 ;
 b = c + b * 2 ;
 d = a * ( b - c ) / 2 ;
 ```
+
+## How It Works?
