@@ -13,10 +13,12 @@ cd /home/USERNAME/Stack-Based-Calculator
 
 Compile the program with GCC:
 ```
-gcc calculator.c -o PROGRAMNAME
+gcc calculator.c -o Calculator
 ```
 
 Run the program with its name: 
 ```
-./PROGRAMNAME
+./Calculator
 ```
+
+In Windows, to run this program you can use an IDE like CodeBlocks, Eclipse or Visual Studio.
