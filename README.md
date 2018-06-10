@@ -43,4 +43,8 @@ Let's take a look at the program menu:
 
 ```
 
-You can either enter the equations on your terminal screen or an input file. 
+You can give the equations to the program either on your terminal screen or with an input file. 
+
+### Giving Equations from the Terminal
+
+
