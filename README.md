@@ -69,5 +69,77 @@ d = a * ( b - c ) / 2 ;
 ```
 <br/>
 
-## How It Works?
-Very nice.
+## An Example
+
+Let's give the equations to the program from an input file, which is below:
+
+```
+a = 3 ;
+b = 2 ;
+c = a + ( 1 + b * 4 ) ;
+```
+
+The output will be like this:
+
+```
+-> Getting the Postfix Expression for a = 3 :
+
+~ Stack:
+~ Postfix: 3
+
+-> Solving the Postfix Expression 3 :
+
+~ Stack: 3
+
+-> Update #a: 3
+
+#################################################
+
+-> Getting the Postfix Expression for b = 2 :
+
+~ Stack:
+~ Postfix: 2
+
+-> Solving the Postfix Expression 2 :
+
+~ Stack: 2
+
+-> Update #b: 2
+
+#################################################
+
+-> Getting the Postfix Expression for c = a + ( 1 + b * 4 ) :
+
+~ Stack:
+~ Postfix: a
+~ Stack: +
+~ Postfix: a
+~ Stack: + (
+~ Postfix: a
+~ Stack: + (
+~ Postfix: a 1
+~ Stack: + ( +
+~ Postfix: a 1
+~ Stack: + ( +
+~ Postfix: a 1 b
+~ Stack: + ( + *
+~ Postfix: a 1 b
+~ Stack: + ( + *
+~ Postfix: a 1 b 4
+~ Stack: +
+~ Postfix: a 1 b 4 * +
+~ Stack:
+~ Postfix: a 1 b 4 * + +
+
+-> Solving the Postfix Expression a 1 b 4 * + + :
+
+~ Stack: 3
+~ Stack: 3 1
+~ Stack: 3 1 2
+~ Stack: 3 1 2 4
+~ Stack: 3 1 8
+~ Stack: 3 9
+~ Stack: 12
+
+-> Update #c: 12
+```
