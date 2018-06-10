@@ -53,4 +53,16 @@ To give an equation to the program, you should follow a few simple formatting sy
 a = 1923 * 2018 - ( 20 + 66 )
 ```
 
-Initially, all the variables in range of *a* to *z* are 0. So if you use them in the equations without define them earlier, they acts as 0.
+Initially, all the variables in range of *a* to *z* are 0. So if you use an variable in the right-hand side of an equation without define it earlier, it acts as 0.
+
+### Getting Equations from a File
+
+To give equations to the program from a file, enter the input file name on the program. Make sure that the input file is in the same directory of the source file *calculator.c*. The formatting syntax of the input file is the same as above. Also you need to add an semicolon to end of each line. An example input file:
+
+```
+a = 3 ;
+b = 2 ;
+c = a + b * 4 ;
+b = c + b * 2 ;
+d = a * ( b - c ) / 2 ;
+```
