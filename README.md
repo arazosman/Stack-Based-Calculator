@@ -1,7 +1,7 @@
 # Stack-Based-Calculator
 YTU - Data Structures & Algorithms 2018/2 Semester Project \
 A stack-based calculator which written in C programming language.
-
+<br/><br/>
 
 
 ## Executing
@@ -22,6 +22,7 @@ Run the program with its name:
 ```
 
 In Windows, to run this program you can use an IDE like CodeBlocks, Eclipse or Visual Studio.
+<br/><br/>
 
 ## Usage
 
@@ -66,5 +67,7 @@ c = a + b * 4 ;
 b = c + b * 2 ;
 d = a * ( b - c ) / 2 ;
 ```
+<br/>
 
 ## How It Works?
+Very nice.
