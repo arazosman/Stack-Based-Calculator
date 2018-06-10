@@ -45,6 +45,12 @@ Let's take a look at the program menu:
 
 You can give the equations to the program either on your terminal screen or with an input file. 
 
-### Giving Equations from the Terminal
+### Getting Equations from the Terminal
 
+To give an equation to the program, you should follow a few simple formatting syntaxes. Assume that all the variables, numbers and arithmetic operators are words. **All words must be seperated with a space character.** For all equations, first word must be the **variable name**, which must be any of English lowercase characters, and the second one must be **equal sign**. Here is an example:
 
+```
+a = 1923 * 2018 - ( 20 + 66 )
+```
+
+Initially, all the variables in range of *a* to *z* are 0. So if you use them in the equations without define them earlier, they acts as 0.
