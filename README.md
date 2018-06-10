@@ -58,7 +58,7 @@ Initially, all the variables in range of *a* to *z* are 0. So if you use an vari
 
 ### Getting Equations from a File
 
-To give equations to the program from a file, enter the input file name on the program. Make sure that the input file is in the same directory of the source file *calculator.c*. The formatting syntax of the input file is the same as above. Also you need to add an semicolon to end of each line. An example input file:
+To give equations to the program from a file, enter the input file name on the program. Make sure that the input file is in the same directory of the source file *calculator.c*. The formatting syntax of the input file is the same as above. **Also you need to add an semicolon to end of each line.** An example input file:
 
 ```
 a = 3 ;
