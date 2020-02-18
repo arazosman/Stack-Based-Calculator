@@ -189,7 +189,7 @@ char *getPostfix(char *command)
             // while the stack is not empty and the precedence of the operator is less than
             // the precedence of the top of the stack, than the top of the stack will be popped
             // and added to the postfix expression
-            while (!isStackEmpty(stack) && getPrecedence(top(stack)) > getPrecedence(var))
+            while (!isStackEmpty(stack) && getPrecedence(top(stack)) >= getPrecedence(var))
                 sprintf(postfix, "%s %s", postfix, pop(stack));
 
             push(stack, var); // pushing the operator onto the stack
